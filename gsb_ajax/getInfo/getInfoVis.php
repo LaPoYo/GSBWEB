@@ -72,3 +72,4 @@ if(isset($_POST['departement_code'])){
 
 echo '</visiteurs>';
 ?>
+
