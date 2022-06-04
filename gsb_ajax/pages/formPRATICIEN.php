@@ -101,7 +101,6 @@ try {
     echo '<span>Choisissez un praticien :  </span><br />';
 
     // gestion de l'évènement sur la liste deroulante Praticiens
-    echo 'beuteu';
     echo '<select name="lstPrat" class="titre" onClick="chercher(this.value);">';
 
     $sql = 'select distinct* from PRATICIEN order by PRA_NOM,PRA_PRENOM';
