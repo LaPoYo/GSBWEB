@@ -43,9 +43,9 @@ require_once("classConnexion/classConnexion.php");
 
 
         <form method="POST" action="index.php">  <!--mettre le liens du fichier pour envoyer le code-->
-            <label class="titre"> Identifiant : <br /></label> <input type="text" class="login" name="login"/>  <!--zone de saisie pour le login(adresse mail,non)-->
-            <br/> <label class="titre"> Mots de passe : <br /></label><div class="pass">  <input type="password" name="pass"/></div> <!--Zone de texte pour le mots de passe -->
-            <br/><input type="submit" name="submit" value="Se connecter"/>  <!--Boutton connection^pour se connecter -->
+            <label class="titre"> Identifiant : <br /></label> <input type="text" class="login" name="login"/>  <!--zone de saisie pour le login-->
+            <br/> <label class="titre"> Mot de passe : <br /></label><div class="pass">  <input type="password" name="pass"/></div> <!--Zone de texte pour le mots de passe -->
+            <br/><input type="submit" name="submit" value="Se connecter"/>  <!--Boutton connexion pour se connecter -->
         </form>
         <?php
         //connexion à la base de données
