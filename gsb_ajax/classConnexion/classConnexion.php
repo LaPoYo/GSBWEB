@@ -11,8 +11,8 @@ var $dsn ="" ;
     }
 /* --------------   Connexion � une base via PDO-------------- ------------------- */
     
-    function connecte($pNomDSN, $pUtil, $pPasse) {                                  //!!\POUR SE CONNECTER//!!\
-        //tente d'�tablir une connexion � une base de donn�es                   //!!\FONCTION A MODIFIER//!!\
+    function connecte($pNomDSN, $pUtil, $pPasse) {                                 
+        //tente d'�tablir une connexion � une base de donn�es                   
         //connexion � la base de donn�es version PHP5
         $this->connexion= new PDO($pNomDSN,$pUtil,$pPasse);
         // version ODBC php4
